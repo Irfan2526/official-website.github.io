@@ -1,0 +1,100 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*---Main Body CSS Code Will Be Start---*/
+.body_style{
+	width:90%;
+	margin: 0 auto; 
+}
+/*---Main Body CSS Code Will Be Colsed---*/
+/*---Crousel Slider CSS Code Will be Start---*/
+  .carousel-inner img {
+    width: 100%;
+    height: 450px;
+  }
+  .carousel-item{
+  	position:relative;
+  }
+  .carousel-caption{
+  	position:absolute;
+  	top:10%;
+  	left:7%!important; 
+
+  }
+  .carousel-caption h3{
+  	text-align:left;
+  	color:black;
+  }
+   .carousel-caption p{
+   	text-align:left;
+   }
+  .carousel-caption button{
+  	color:#fff;
+  	background:#000;
+  	border:none;
+  	font-size:15px;
+  	position:absolute;
+  	left:0;
+  	padding:10px 20px;
+  }
+  /*---Crousel Slider CSS Code Will be End---*/
+  /*----Card CSS Code Will be start----*/
+  .card{
+  	border:none!important;
+  }
+  .card-body{
+  	padding:5px 0px!important;
+  }
+  /*----Card CSS Code Will be Closed----*/
+  /*----Background Image CSS Code Will Be start---*/
+  .msstyle
+  {
+  	width:100%;
+  	height:380px;
+  	background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0)),url('../Images/Tajmahal.jpg');
+  	background-repeat:no-repeat;
+  	background-size:100% 100%;
+  	color: white;
+  	display:flex;
+  	flex-direction:column;
+  	justify-content: center;
+  	align-items:flex-start;
+  	padding-left:70px;
+  }
+  .paracode button{
+  	color:black;
+  	background:white;
+  	border:none;
+  	font-size:15px;
+  	padding:10px 20px;
+  	font-weight:bold;
+  	text-transform:uppercase;
+  }
+    /*----Background Image CSS Code Will Be start---*/
+    /*-----Our Team Work CSS Code Will Be Start-----*/
+    /*-----FaceBook Team Will Be Wrok---*/
+/*-------Footer CSS Code Will Be start-----*/
+footer{
+	background: #f2f2f2;
+	padding: 40px 0px;
+}
+footer li{
+	list-style: none;
+}
+footer a{
+	text-decoration:none;
+	color: #818181;
+}
+.align_item{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+} 
+.foter_bottom{
+	background: #f2f2f2;
+	padding: 40px 0px;
+}   
